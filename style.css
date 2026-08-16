@@ -110,6 +110,20 @@
           GALLERY
           ==================*/
 
+           #home {
+            text-align: center;
+          }
+          
+          #home img {
+            width: 200px;
+            height: 250px;
+            object-fit: cover;
+          }
+
+          #home img:hover {
+            transform: scale(1.05);
+          }
+
           #gallery {
             text-align: center;
           }
