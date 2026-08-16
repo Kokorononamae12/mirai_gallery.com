@@ -164,35 +164,3 @@
             gap: 15px;
             flex-wrap: wrap;
           }
-          /*========================
-            SIDEBAR
-            ========================*/
-
-            .sidebar {
-              background-color: #f7b6d2;
-              width: 200px;
-              padding: 20px;
-              border-radius: 15px;
-              float: left;
-              margin-right: 25px;
-            }
-
-            .sidebar h3 {
-              color:#8f315b;
-            }
-
-            .sidebar p {
-              font-size: 14px;
-            }
-
-            .sidebar a {
-              display: block;
-              color: #8f315b;
-              text-decoration: none;
-              margin: 10px 0;
-              font-weight: bold;
-            }
-
-            .sidebar a:hover{
-              color: #ffffff;
-            }
