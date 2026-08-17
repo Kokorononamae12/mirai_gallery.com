@@ -14,9 +14,11 @@
     =================*/
 
     header {
-        background-color: #f7b6d2;
-        text-align: center;
-        padding: 30px;
+       background: linear-gradient(135deg, #f7b6d2, #d98ab5);
+       text-align: center;
+       padding: 45px 20px;
+       position: relative;
+       overflow: hidden;
     }
 
     header h1 {
@@ -30,19 +32,19 @@
       header::before {
         content: 💞;
         position: absolute;
-        left: 10%;
-        top: 20px;
-        font-size: 80px;
+        left: -30px;
+        top: -30px;
+        font-size: 150px;
         color: rgba(255, 255, 255, 0.3);
       }
 
       header::after {
         content: 💞;
         position: absolute;
-        left: 10%;
-        top: 20px;
-        font-size: 80px;
-        color: rgba(255, 255, 255, 0.3);
+        right: -30%;
+        bottom: -50px;
+        font-size: 180px;
+        color: rgba(255, 255, 255, 0.2);
       }
 
 
