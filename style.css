@@ -52,7 +52,7 @@
     NAVIGASI
     =======================*/
 
-    nav {
+      nav {
        background-color: #8f315b;
        text-align: center;
        padding: 15px;
@@ -72,7 +72,6 @@
     nav a:hover {
       color: #ffd6e7;
     }
-
 
     /*===================
       ISI UTAMA
